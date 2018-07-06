@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.capco.scblife.util.logging</groupId>
+	<artifactId>SCBLogger</artifactId>
+	<version>0.0.1</version>
+	<name>Maven core</name>
+	<description>The maven main core project description</description>
+	<url>http://maven.apache.org</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>https://svn.apache.org/viewvc/maven</url>
+	</scm>
+	<dependencies>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>Capco-SCBLifeLogger-Build-0.0.1</finalName>
+	</build>
+</project>

@@ -1,0 +1,5 @@
+com\capco\scblife\util\logging\ApplicationLogs.class
+com\capco\scblife\util\logging\TransactionLogs.class
+com\capco\scblife\util\logging\AuditLogs.class
+com\capco\scblife\util\logging\Constants.class
+com\capco\scblife\util\logging\SCBLogger.class
